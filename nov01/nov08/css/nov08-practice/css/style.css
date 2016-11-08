@@ -1,0 +1,19 @@
+article {
+  width: 55%;
+  float: left;
+}
+
+aside {
+  width: 25%;
+  float: right;
+}
+footer {
+  background-color: lightgreen;
+}
+
+
+main::after {
+  content: '';
+  display: block;
+  clear: both;
+}
