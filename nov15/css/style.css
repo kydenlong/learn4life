@@ -1,0 +1,68 @@
+body {
+  font-family: Verdana;
+}
+legend {
+  color: silver;
+}
+
+::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;
+}
+
+:-ms-input-placeholder {
+   color: red;
+}
+
+input, textarea {
+  background-color: Transparent;
+}
+
+
+fieldset {
+  border-color: red;
+}
+
+#text {
+  border-color: red;
+
+
+}
+
+#email {
+  border-color: red;
+
+
+}
+#phone-number {
+  border-color: red;
+
+}
+
+#password {
+  border-color: red;
+
+}
+
+#area {
+  border-color: red;
+}
+#submit {
+  border-color: red;
+}
+#phone {
+  border-color: red;
+}
+#color {
+  border-color: red;
+}
+#phone, #phone + input {
+  width: 60px;
+}
