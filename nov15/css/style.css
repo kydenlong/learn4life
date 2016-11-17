@@ -1,8 +1,21 @@
+html {
+  background-image:url(https://s.yimg.com/fz/api/res/1.2/ExUxVfE1cK1SHondbfRTPg--/YXBwaWQ9c3JjaGRkO2g9MzQzO3E9OTU7dz0zMzU-/http://localcontent.zenfs.com/80ad/80ad369d1da8ce090f901568b7897af1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 body {
   font-family: Verdana;
 }
+form {
+  margin: 30px;
+}
+
+label {
+  color: blue;
+}
 legend {
-  color: silver;
+  color: blue;
 }
 
 ::-webkit-input-placeholder {
@@ -28,6 +41,7 @@ input, textarea {
 
 fieldset {
   border-color: red;
+  width: 50%;
 }
 
 #text {
@@ -65,4 +79,8 @@ fieldset {
 }
 #phone, #phone + input {
   width: 60px;
+}
+
+#textarea {
+  display: flex;
 }

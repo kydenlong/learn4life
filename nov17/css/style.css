@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  font-family: serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+div.card {
+  width: calc(100% / 3);
+  margin: 0 auto;
+  border: 1px solid coral;
+  border-radius: 5px;
+  padding: 40px 20px 20px;
+  transition: all 150ms ease-out;
+  position: relative;
+}
+
+div.card:hover {
+  box-shadow: 1px 1px 5px hsla(0, 0%, 0%, .05);
+}
+
+div.card i.fa {
+  color: coral;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px hsla(0, 0%, 0%, .5);
+  padding: 7px 15px;
+  font-size: 250%;
+}
+
+div.card a {
+  color: coral;
+  background-color: black;
+  padding: 7px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 1px 1px 3px hsla(0, 0%, 0%, .5);
+  transition: all 150ms ease-out;
+}
+div.card a:hover {
+  box-shadow: 2px 2px 6px hsla(0, 0%, 0%, .5);
+  transform: scale(1.05);
+}
+
+div.card::before {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0%;
+  background-color: coral;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+
+div.card:hover::before {
+  width: 100%;
+}
+
+
+
+div.card i.fa {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  transform: translate3d(-50%, -50%, 0);
+  transition: all 150ms ease-out;
+}
+
+div.card:hover i.fa {
+    transform: translate3d(-50%, -25%, 0);
+
+}
+
+div.card i.fa::after {
+top: 100%;
+content: '';
+display: block;
+border-width: 10px 10px 0px 10px;
+border-style: solid;
+border-color: coral transparent blue transparent;
+position: absolute;
+}
+
+div.card::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 0%;
+  background-color: coral;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+
+div.card:hover::after {
+  width: 100%;
+}
+
+
+div.card-inner::before {
+  content: '';
+  display: block;
+  height: 0%;
+  width: 4px;
+  background-color: coral;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+
+div.card:hover .card-inner::before {
+  height: 100%;
+}
+
+
+div.card .card-inner::after {
+  content: '';
+  display: block;
+  height: 0%;
+  width: 4px;
+  background-color: coral;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  transition: all 150ms ease-out;
+}
+
+div.card:hover .card-inner::after {
+  height: 100%;
+}
