@@ -1,0 +1,56 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bungee Inline', cursive;
+  text-shadow: -1px -1px 0 blue,1px -1px 0 blue,-1px 1px 0 blue,1px 1px 0 blue;
+}
+
+section {
+  color: black;
+  background-color: orange;
+  padding: 15px 10%;
+  position: relative;
+}
+section::after {
+  clear: both;
+  display: block;
+  content: '';
+
+}
+
+i.fa {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: blue;
+  padding: 10px;
+  color: black;
+}
+i.fa-chevron-left {
+  left: 0;
+}
+i.fa-chevron-right {
+  right: 0;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 4px;
+  border: 1.5px solid darkblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+div img {
+  width: 100%;
+}
+
+div {
+  width: 50%;
+  float: left;
+}
