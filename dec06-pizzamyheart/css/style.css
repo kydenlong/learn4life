@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Mouse+Memoirs');
+
+section {
+  background-image: url(http://pizzamyheart.com/wp-content/uploads/2014/02/Wood-BG-Red.jpg);
+}
+
+div.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+
+h3 {
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul::after {
+  clear: both;
+  display: block;
+  content:'';
+}
+
+ul li {
+  width: calc(1160px / 5);
+  display: inline-block;
+  float: left;
+  text-align: center;
+  font-size: 175%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+ul img {
+  width: 100%;
+}
