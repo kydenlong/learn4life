@@ -1,0 +1,124 @@
+/*
+black: hsl(240, 6%, 13%)
+gray: hsl(240, 6%, 18%)
+green: hsl(174, 44%, 61%)
+blue: hsl(226, 45%, 65%)
+purple: hsl(263, 47%, 65%)
+*/
+
+@import url( https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css);
+
+.ul2 {
+  text-align: center;
+  padding: 0px;
+}
+
+.ul2 li {
+  width: 40px;
+  display: inline;
+  text-align: center;
+}
+
+i {
+  color: grey;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: hsl(240, 6%, 13%);
+}
+
+img {
+  width: 100%;
+
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+li {
+  margin: 5px;
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  width: 30%;
+  color: white;
+  border-radius: 5px;
+}
+
+#btn1 {
+  border-color:  hsl(174, 44%, 61%);
+  background-color:  hsl(174, 44%, 61%);
+}
+#btn2 {
+  border-color:hsl(263, 47%, 65%);
+  background-color:hsl(263, 47%, 65%);
+}
+#btn3 {
+  border-color:hsl(226, 45%, 65%);
+  background-color:hsl(226, 45%, 65%);
+}
+#btn4 {
+  border-color:hsl(226, 45%, 65%);
+  background-color:hsl(226, 45%, 65%);
+}
+#btn5 {
+  border-color:hsl(263, 47%, 65%);
+  background-color:hsl(263, 47%, 65%);
+}
+#btn6 {
+  border-color:  hsl(174, 44%, 61%);
+  background-color:  hsl(174, 44%, 61%);
+}
+
+#class1 {
+  background-color: hsl(240, 6%, 18%);
+}
+#class2 {
+  background-color: hsl(240, 6%, 18%);
+}
+#class3 {
+  background-color: hsl(240, 6%, 18%);
+}
+#class4 {
+  background-color: hsl(240, 6%, 18%);
+}
+#class5 {
+  background-color: hsl(240, 6%, 18%);
+}
+#class6 {
+  background-color: hsl(240, 6%, 18%);
+}
+
+a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 5px;
+  display: block;
+  color: white;
+  margin: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+p {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
