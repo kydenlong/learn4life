@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+body {
+  font-family: "Arimo";
+}
+
+#section1 {
+  width: 55%;
+  border-style: solid;
+  border-color: transparent;
+  border-width:2px;
+  display: block;
+  float: left;
+  padding: 0;
+}
+
+#header1 {
+  margin-bottom: 0;
+}
+
+
+#hp1 {
+  margin-top: 0;
+}
+
+#img1 {
+  height: 400px;
+  width:100%;
+}
+.smallimg {
+  height: 85px;
+  width: 85px;
+  float: left;
+  margin-right: 10px;
+}
+
+.text {
+  float: right;
+}
+
+ul {
+  margin-left: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-left: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#section2 {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 2px;
+  width: 35%;
+  float: right;
+  margin-top: 3px;
+}
+
+#middle {
+  border-style: solid;
+  border-color: lightgray;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+.smallheader {
+  font-size: 11px;
+  color: gray;
+  float: left;
+  width: 100%;
+}
+
+li::after {
+  content:"";
+  display: block;
+  clear: both;
+}
