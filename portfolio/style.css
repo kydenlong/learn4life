@@ -1,0 +1,36 @@
+#homebody {
+  background-image: linear-gradient(hsla(236, 96%, 50%, 1), hsla(152, 96%, 71%, 1) );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#homeheader {
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom-style:  solid;
+  padding-bottom: 20px;
+}
+
+li {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border-style: solid;
+  border-radius: 3px;
+  padding: 3px;
+}
+
+a:hover {
+  background-color: black;
+  color: lightgreen;
+}
