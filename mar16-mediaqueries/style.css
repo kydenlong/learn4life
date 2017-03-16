@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+
+body {
+  margin: 0;
+}
+
+img {
+  float: right;
+  margin: 0px 0px 25px 25px;
+  width: 75%;
+}
+
+div {
+  padding: 100px 10%;
+}
