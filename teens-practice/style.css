@@ -1,0 +1,50 @@
+html {
+  margin: 70px;
+}
+
+#menu ul {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(182, 100%, 37%);
+  border-radius: 5px;
+  border: 3px solid hsl(190, 100%, 37%);
+}
+
+#menu li {
+  list-style: none;
+  padding: 20px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+#generalhealth {
+  border: 3px solid hsl(190, 100%, 37%);
+}
+
+#generalhealth img {
+  width: 50%;
+  float: right;
+  padding-left: 30px;
+}
+
+#generalhealth p {
+  width: 50%;
+}
+
+#generalhealth li {
+  padding: 10px;
+}
+#generalhealth a:hover {
+  color: blue;
+
+}
