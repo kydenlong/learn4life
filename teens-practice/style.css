@@ -1,5 +1,12 @@
-html {
-  margin: 70px;
+`html {
+  padding: 70px;
+  background-color: white;
+}
+#html2 {
+  background-color: lightblue;
+}
+#html3 {
+  background-color: lightgreen;
 }
 
 #menu ul {
@@ -28,7 +35,9 @@ html {
 }
 
 #generalhealth {
-  border: 3px solid hsl(190, 100%, 37%);
+  border: 3px solid  hsl(182, 100%, 37%);
+  padding: 5px;
+  border-radius: 3px;
 }
 
 #generalhealth img {
@@ -44,7 +53,11 @@ html {
 #generalhealth li {
   padding: 10px;
 }
+#generalhealth a {
+  text-decoration: none;
+}
+
 #generalhealth a:hover {
   color: blue;
-
+  text-decoration: underline;
 }
