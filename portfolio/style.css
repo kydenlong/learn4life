@@ -14,7 +14,7 @@ body {
 #homesection {
   background-image:  linear-gradient(hsla(201,10%,40%,.5), hsla(201,10%,40%,.5)), url(http://blog.wishket.com/wp-content/uploads/2014/06/web-development.jpg);
   background-size: cover;
-  color: white;
+  color: black;
   padding: 70px;
   padding-left: 25%;
   padding-right: 25%;
@@ -32,7 +32,6 @@ text-align: center;
 #homeheader {
  padding-top: 50px;
  padding-bottom: 50px;
- color: color;
 }
 
 #profilesection h1 {
