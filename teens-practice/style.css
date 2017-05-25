@@ -39,6 +39,11 @@
   padding: 5px;
   border-radius: 3px;
 }
+#generalhealth::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
 #generalhealth img {
   width: 50%;
